@@ -530,20 +530,20 @@ public class Board extends JPanel implements ActionListener {
     private void loadImages() {
 
         try {
-            ghost = new ImageIcon("images/ghost.png").getImage();
-        pacman1 = new ImageIcon("images/PacMan1.gif").getImage();
-        pacman2up = new ImageIcon("images/up1.png").getImage();
-        pacman3up = new ImageIcon("images/up2.png").getImage();
-        pacman4up = new ImageIcon("images/up3.png").getImage();
-        pacman2down = new ImageIcon("images/down1.png").getImage();
-        pacman3down = new ImageIcon("images/down2.png").getImage();
-        pacman4down = new ImageIcon("images/down3.png").getImage();
-        pacman2left = new ImageIcon("images/left1.png").getImage();
-        pacman3left = new ImageIcon("images/left2.png").getImage();
-        pacman4left = new ImageIcon("images/left3.png").getImage();
-        pacman2right = new ImageIcon("images/right1.png").getImage();
-        pacman3right = new ImageIcon("images/right2.png").getImage();
-        pacman4right = new ImageIcon("images/right3.png").getImage();
+            ghost = new ImageIcon("src/com/images/ghost.png").getImage();
+        pacman1 = new ImageIcon("src/com/images/pacman.png").getImage();
+        pacman2up = new ImageIcon("src/com/images/up1.png").getImage();
+        pacman3up = new ImageIcon("src/com/images/up2.png").getImage();
+        pacman4up = new ImageIcon("src/com/images/up3.png").getImage();
+        pacman2down = new ImageIcon("src/com/images/down1.png").getImage();
+        pacman3down = new ImageIcon("src/com/images/down2.png").getImage();
+        pacman4down = new ImageIcon("src/com/images/down3.png").getImage();
+        pacman2left = new ImageIcon("src/com/images/left1.png").getImage();
+        pacman3left = new ImageIcon("src/com/images/left2.png").getImage();
+        pacman4left = new ImageIcon("src/com/images/left3.png").getImage();
+        pacman2right = new ImageIcon("src/com/images/right1.png").getImage();
+        pacman3right = new ImageIcon("src/com/images/right2.png").getImage();
+        pacman4right = new ImageIcon("src/com/images/right3.png").getImage();
         } catch (Exception e) {
             e.printStackTrace();
         }
